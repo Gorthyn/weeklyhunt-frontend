@@ -1,5 +1,9 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+// Import the HelloWorld component
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   return (
@@ -18,8 +22,14 @@ function App() {
           Learn React
         </a>
       </header>
+
+      {/* Add HelloWorld component below the header */}
+      <main>
+        <HelloWorld />
+      </main>
     </div>
   );
 }
 
 export default App;
+
