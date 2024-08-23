@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css'; './styles/App.css';
-
-// Import the HelloWorld component
 import HelloWorld from './components/HelloWorld';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -25,6 +24,7 @@ function App() {
 
       {/* Add HelloWorld component below the header */}
       <main>
+        <Header />
         <HelloWorld />
       </main>
     </div>
