@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.css'; './styles/App.css';
 
 // Import the HelloWorld component
 import HelloWorld from './components/HelloWorld';
